@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Houston Travels</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Houston Travels</h1>
-            <nav>
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#Destinations">Destinations</a></li>
+                    <li><a href="#TravelTips">Travel Tips</a></li>
                     <li><a href="#Services">Services</a></li>
                     <li><a href="#About">About Us</a></li>
                     <li><a href="#Blog">Blog</a></li>
@@ -24,121 +25,187 @@
         </div>
     </header>
 
-    <section id="Home" class="hero">
-        <div class="container">
-            <h2>Welcome to Houston Travels</h2>
-            <p>Discover stunning destinations and book your dream vacation with us!</p>
-            <a href="#Destinations" class="cta-button">Explore Now</a>
-        </div>
-    </section>
-
-    <section id="Destinations" class="destinations">
-        <div class="container">
-            <h2>Top Houston Destinations</h2>
-            <div class="destinations-grid">
-                <div class="destination-card">
-                    <img src="C:\Users\USER\OneDrive\Documents\Downloads\houstonzoo.jpg" alt="Houston Zoo">
-                    <h3>Houston Zoo</h3>
-                </div>
-                <div class="destination-card">
-                    <img src="C:\Users\USER\OneDrive\Documents\Downloads\houston museam of natural science.jpg" alt="Houston Museum of Natural Science">
-                    <h3>Houston Museum of Natural Science</h3>
-                </div>
-                <div class="destination-card">
-                    <img src="C:\Users\USER\OneDrive\Documents\Downloads\Houston space centre.jpg" alt="Space Center Houston">
-                    <h3>Space Center Houston</h3>
-                </div>
-                <div class="destination-card">
-                    <img src= "C:\Users\USER\OneDrive\Documents\Downloads\the galeria.jpg" alt="The Galleria">
-                    <h3>The Galleria</h3>
-                </div>
-                <div class="destination-card">
-                    <img src= "C:\Users\USER\OneDrive\Documents\Downloads\Museum of fine arts.jpg" alt="Museum of Fine Arts">
-                    <h3>Museum of Fine Arts, Houston</h3>
-                </div>
-                <div class="destination-card">
-                    <img src= "C:\Users\USER\OneDrive\Documents\Downloads\The Waterfall.jpg" alt="Water Wall">
-                    <h3>Water Wall</h3>
-                </div>
-                <div class="destination-card">
-                    <img src= "C:\Users\USER\OneDrive\Documents\Downloads\Downtown Aquarium.jpg" alt="Downtown Aquarium">
-                    <h3>Downtown Aquarium</h3>
-                </div>
-                <div class="destination-card">
-                    <img src= "C:\Users\USER\OneDrive\Documents\Downloads\Hermann Park.jfif" alt="Hermann Park Convervancy">
-                    <h3>Hermann Park Convervancy</h3>
+    <main>
+        <section id="Home" class="hero">
+            <div class="container">
+                <h2>Welcome to Houston Travels</h2>
+                <p>Discover stunning destinations and book your dream vacation with us!</p>
+                <a href="#Destinations" class="cta-button">Explore Now</a>
             </div>
-            <h3>Travel Tips</h3>
-            <ul class="tips-list">
-                <li>Have copies of your important documents</li>
-                <li>Get travel insurance</li>
-                <li>Bring your passport and ID</li>
-                <li>Carry a reusable water bottle</li>
-                <li>Don't forget sunscreen</li>
-            </ul>
-        </div>
-    </section>
+        </section>
 
-    <section id="Services" class="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Vacation Packages</li>
-                <li>Flights & Accommodation</li>
-                <li>Custom Itineraries</li>
-                <li>Travel Insurance</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="About" class="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Our Story | Meet the Team | Contact Information</p>
-            <div class="social-links">
-                <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
-                <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
-                <a href="https://pinterest.com" target="_blank" rel="noopener">Pinterest</a>
+        <section id="Destinations" class="destinations">
+            <div class="container">
+                <h2>Top Houston Destinations</h2>
+                <div class="destinations-grid">
+                    <div class="destination-card">
+                        <img src= "C:\Users\USER\OneDrive\Documents\Downloads\houstonzoo.jpg" alt="Houston Zoo">
+                        <h3>Houston Zoo</h3>
+                    </div>
+                    <div class="destination-card">
+                        <img src= "C:\Users\USER\OneDrive\Documents\Downloads\houston museam of natural science.jpg" alt="Houston Museum of Natural Science">
+                        <h3>Houston Museum of Natural Science</h3>
+                    </div>
+                    <div class="destination-card">
+                        <img src= "C:\Users\USER\OneDrive\Documents\Downloads\Houston space centre.jpg" alt="Space Center Houston">
+                        <h3>Space Center Houston</h3>
+                    </div>
+                    <div class="destination-card">
+                        <img src= "C:\Users\USER\OneDrive\Documents\Downloads\the galeria.jpg" alt="The Galleria">
+                        <h3>The Galleria</h3>
+                    </div>
+                    <div class="destination-card">
+                        <img src= "C:\Users\USER\OneDrive\Documents\Downloads\Museum of fine arts.jpg" alt="Museum of Fine Arts, Houston">
+                        <h3>Museum of Fine Arts, Houston</h3>
+                    </div>
+                    <div class="destination-card">
+                        <img src= "C:\Users\USER\OneDrive\Documents\Downloads\The Waterfall.jpg" alt="Water Wall">
+                        <h3>Water Wall</h3>
+                    </div>
+                    <div class="destination-card">
+                        <img src= "C:\Users\USER\OneDrive\Documents\Downloads\Downtown Aquarium.jpg" alt="Downtown Aquarium">
+                        <h3>Downtown Aquarium</h3>
+                    </div>
+                    <div class="destination-card">
+                        <img src= "C:\Users\USER\OneDrive\Documents\Downloads\Hermann Park.jpg" alt="Hermann Park Conservancy">
+                        <h3>Hermann Park Conservancy</h3>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="Blog" class="blog">
-        <div class="container">
-            <h2>Travel Blog</h2>
-            <ul>
-                <li>Travel Stories</li>
-                <li>Tips & Advice</li>
-                <li>Latest News</li>
-            </ul>
-        </div>
-    </section>
+        <section id="TravelTips" class="travel-tips">
+            <div class="container">
+                <h2>Travel Tips</h2>
+                <ul class="tips-list">
+                    <li>Have copies of your important documents</li>
+                    <li>Get travel insurance</li>
+                    <li>Bring your passport and ID</li>
+                    <li>Carry a reusable water bottle</li>
+                    <li>Don't forget sunscreen</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="Reviews" class="reviews">
-        <div class="container">
-            <h2>Customer Reviews</h2>
-            <p>See what our travelers say and share your experience!</p>
-        </div>
-    </section>
+        <section id="Services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Vacation Packages</li>
+                    <li>Flights & Accommodation</li>
+                    <li>Custom Itineraries</li>
+                    <li>Travel Insurance</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="Contact" class="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Email: info@travelagency.com</p>
-            <p>Phone: +2547-432-123-4567</p>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Inquiry</button>
-            </form>
-        </div>
-    </section>
+        <section id="About" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Our Story | Meet the Team | Contact Information</p>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://pinterest.com" target="_blank" rel="noopener">Pinterest</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="Blog" class="blog">
+            <div class="container">
+                <h2>Travel Blog</h2>
+                <ul>
+                    <li>Travel Stories</li>
+                    <li>Tips & Advice</li>
+                    <li>Latest News</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Reviews" class="reviews">
+            <div class="container">
+                <h2>Customer Reviews</h2>
+                <div class="carousel" role="region" aria-label="Customer Reviews">
+                    <div class="carousel-item active">
+                        <p>"Houston Travels made my trip unforgettable! Highly recommended."</p>
+                        <span>- Jane D.</span>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"Excellent service and great travel tips. Will book again!"</p>
+                        <span>- Mark T.</span>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"Loved the custom itinerary. Everything was perfect!"</p>
+                        <span>- Priya S.</span>
+                    </div>
+                    <button class="carousel-btn prev" aria-label="Previous review">&#10094;</button>
+                    <button class="carousel-btn next" aria-label="Next review">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h2>Subscribe to Our Newsletter</h2>
+                <form>
+                    <input type="email" placeholder="Your Email" required aria-label="Your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="Contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Email: <a href="mailto:info@travelagency.com">info@travelagency.com</a></p>
+                <p>Phone: <a href="tel:+25474321234567">+2547-432-123-4567</a></p>
+                <form>
+                    <input type="text" placeholder="Your Name" required aria-label="Your name">
+                    <input type="email" placeholder="Your Email" required aria-label="Your email">
+                    <textarea placeholder="Your Message" required aria-label="Your message"></textarea>
+                    <button type="submit">Send Inquiry</button>
+                </form>
+                <div class="map-responsive">
+                    <iframe
+                        src="https://www.google.com/maps?q=Houston,+TX,+USA&output=embed"
+                        width="100%"
+                        height="250"
+                        allowfullscreen=""
+                        title="Map showing Houston, Texas, USA">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
             <p>&copy; 2025 Houston Travels. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        const items = document.querySelectorAll('.carousel-item');
+        const prevBtn = document.querySelector('.carousel-btn.prev');
+        const nextBtn = document.querySelector('.carousel-btn.next');
+        let current = 0;
+
+        function showItem(index) {
+            items.forEach((item, i) => {
+                item.classList.toggle('active', i === index);
+            });
+        }
+
+        if (prevBtn && nextBtn) {
+            prevBtn.addEventListener('click', () => {
+                current = (current - 1 + items.length) % items.length;
+                showItem(current);
+            });
+            nextBtn.addEventListener('click', () => {
+                current = (current + 1) % items.length;
+                showItem(current);
+            });
+        }
+    </script>
 </body>
 </html>
